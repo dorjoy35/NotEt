@@ -1,7 +1,7 @@
 # NotEt
 
 <div align="center">
-  <img src="logo.svg" width="128" height="128" alt="NotEt Logo">
+  <img src="favicon/apple-touch-icon.png" width="128" height="128" alt="NotEt Logo">
 </div>
 
 <div align="center">
