@@ -1826,27 +1826,35 @@ select.form-input:focus {
         height: 36px;
     }
 
+    .content-wrapper {
+        padding: 16px;
+    }
+
     .page-header {
         flex-direction: column;
-        gap: 16px;
-        text-align: center;
+        gap: 12px;
+        text-align: left;
+        margin-bottom: 16px;
     }
 
     .header-content {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        gap: 10px;
     }
 
     .page-title {
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
-        text-align: center;
+        text-align: left;
+        font-size: 20px;
     }
 
     .page-subtitle {
-        text-align: center;
+        text-align: left;
         width: 100%;
+        font-size: 13px;
     }
 
     .header-actions {
@@ -1856,12 +1864,13 @@ select.form-input:focus {
     }
 
     #searchInput {
-        width: 140px;
-        transition: width 0.3s ease;
+        width: 100%;
+        max-width: 400px;
     }
 
     #searchInput:focus {
         width: 100%;
+        max-width: 400px;
     }
 }
 
@@ -1869,4 +1878,3 @@ select.form-input:focus {
 #searchInput {
     width: 250px;
 }
-
